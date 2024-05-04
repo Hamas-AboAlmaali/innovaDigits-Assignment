@@ -1,0 +1,553 @@
+.feat-header {
+  background: rgba(17, 0, 42, 1);
+  min-height: 800px;
+  overflow: hidden;
+}
+
+.feat-header .container {
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feat-header .container .content {
+  width: 40%;
+}
+
+.feat-header .container .content p:nth-child(1) {
+  font-family: "Yellix";
+  font-size: 55px;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.feat-header .container .content p:nth-child(1) span {
+  background: -webkit-linear-gradient(80.5deg, #00ddd0 10.74%, #6100dd 108.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feat-header .container .content p:nth-child(2) {
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 21px;
+  line-height: 32px;
+  color: rgba(216, 222, 230, 1);
+}
+
+.feat-header .container .images {
+  position: relative;
+}
+
+.feat-header .container .images .img {
+  position: absolute;
+}
+
+.feat-header .container .images .img-survey {
+  top: 130px;
+  left: 410px;
+}
+
+.feat-header .container .images .img-form {
+  top: 50px;
+  left: -125px;
+}
+
+.feat-header .container .images .img-pie-chart {
+  width: 70%;
+  top: 265px;
+  left: 300px;
+}
+
+.feat-header .container .images .img-star-rating {
+  width: 70%;
+  top: 360px;
+  left: -100px;
+}
+
+/* ===================== Section Two ========================= */
+
+.feat-section-two {
+  width: 100vw;
+  height: 800px;
+  padding: 48px 132px 0px 132px;
+  overflow: hidden;
+}
+
+.feat-section-two .heading {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.feat-section-two .heading .title {
+  width: 60%;
+  font-family: "Yellix";
+  font-size: 60px;
+  line-height: 80px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-two .heading .switches img {
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.feat-section-two .card-container {
+  width: 100%;
+  height: 65%;
+  position: relative;
+}
+
+.feat-section-two .card-container .card-two {
+  left: 87%;
+}
+.feat-section-two .card-container .card-three {
+  left: 174%;
+}
+
+.feat-section-two .card-container .card-four {
+  left: 261%;
+}
+
+.feat-section-two .card-container .card {
+  width: 85%;
+  margin: 50px 0px;
+  border-radius: 20px;
+  position: absolute;
+  padding: 30px;
+  background: linear-gradient(
+    80.5deg,
+    rgba(0, 221, 208, 0.06) 10.74%,
+    rgba(97, 0, 221, 0.06) 108.1%
+  );
+  transition: transform 0.5 linear;
+}
+
+.feat-section-two .card-container .card .content {
+  width: 50%;
+  padding: 30px;
+}
+
+.feat-section-two .card-container .card .content p:nth-child(2) {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 30px 0px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-two .card-container .card .content p:nth-child(3) {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-two .card-container .card .cover {
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* ===================== Section Three ========================= */
+
+.feat-section-three {
+  width: 100vw;
+  padding: 48px 132px 0px 132px;
+}
+
+.feat-section-three .heading {
+  width: 50%;
+  font-family: "Yellix";
+  font-size: 60px;
+  line-height: 70px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-three .card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.feat-section-three .card {
+  width: 50%;
+  height: 500px;
+  border: 1px solid rgba(216, 222, 230, 1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.feat-section-three .card .cover {
+  height: 55%;
+  position: relative;
+  background: rgba(244, 244, 244, 1);
+}
+
+.feat-section-three .card .cover img {
+  position: absolute;
+}
+
+.card-ai,
+.card-use-template,
+.card-cratch {
+  height: 160px;
+  top: 55px;
+}
+
+.feat-section-three .card .cover .card-ai {
+  left: 425px;
+}
+
+.feat-section-three .card .cover .card-use-template {
+  left: 160px;
+}
+
+.feat-section-three .card .content {
+  padding: 30px;
+}
+
+.feat-section-three .card .content p:nth-child(1) {
+  font-family: "Yellix";
+  font-size: 30px;
+  line-height: 45px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-three .card .content p:nth-child(2) {
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-three .card .cover .share-survey {
+  height: 225px;
+  top: 25px;
+  left: 135px;
+}
+
+.feat-section-three .card .cover .add-question {
+  height: 250px;
+  left: 62px;
+}
+
+.feat-section-three .card .googl-icons img {
+  height: 110px;
+}
+
+.google-sheet-one,
+.google-sheet-two,
+.noation {
+  transform: rotate(-10deg);
+}
+
+.hub-spot-one,
+.hub-spot-two {
+  transform: rotate(10deg);
+}
+
+.google-sheet-three,
+.similar-web {
+  transform: rotate(20deg);
+}
+
+.feat-section-three .card .googl-icons .google-sheet-one {
+  top: 0px;
+  left: -10px;
+}
+
+.feat-section-three .card .googl-icons .google-sheet-two {
+  top: 145px;
+  left: 380px;
+}
+
+.feat-section-three .card .googl-icons .google-sheet-three {
+  top: 45px;
+  left: 95px;
+}
+
+.feat-section-three .card .googl-icons .hub-spot-one {
+  top: 140px;
+  left: 45px;
+}
+
+.feat-section-three .card .googl-icons .hub-spot-two {
+  top: 50px;
+  left: 400px;
+}
+
+.feat-section-three .card .googl-icons .noation {
+  top: 25px;
+  left: 240px;
+}
+
+.feat-section-three .card .googl-icons .similar-web {
+  top: 110px;
+  left: 210px;
+}
+
+/* ===================== Section Four ========================= */
+.feat-section-four {
+  width: 100vw;
+  padding: 48px 132px 0px 132px;
+  height: 1050px;
+  margin: 100px 0px;
+}
+
+.feat-section-four .parent {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(
+    79.15deg,
+    rgba(0, 221, 208, 0.08) 11.7%,
+    rgba(97, 0, 221, 0.08) 107.09%
+  );
+  padding: 100px;
+}
+
+.feat-section-four .parent .heading .title {
+  font-family: "Yellix";
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-four .parent .heading .description {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-four .parent .points {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.feat-section-four .parent .points .row-one {
+  width: 100%;
+  margin: 30px;
+}
+
+.feat-section-four .parent .points .row-two {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.feat-section-four .parent .points ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feat-section-four .parent .points ul li {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgba(17, 0, 42, 1);
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 1);
+  list-style-position: inside;
+  border-radius: 20px;
+}
+
+.feat-section-four .parent .points ul li::marker {
+  color: rgba(0, 221, 208, 1);
+  font-size: 20px;
+}
+
+.feat-section-four .parent .images {
+  position: relative;
+}
+
+.feat-section-four .parent .images img {
+  position: absolute;
+  width: 30%;
+}
+
+.feat-section-four .parent .images .upload-photo {
+  top: 20px;
+  left: 783px;
+  height: 200px;
+}
+
+.feat-section-four .parent .images .enter-question-one {
+  top: 250px;
+  left: 783px;
+}
+
+.feat-section-four .parent .images .enter-question-two {
+  top: 20px;
+  left: 210px;
+}
+
+.feat-section-four .parent .images .enter-question-three {
+  top: 250px;
+  left: -100px;
+}
+
+.feat-section-four .parent .images .enter-question-four {
+  top: 20px;
+  left: -100px;
+}
+
+.feat-section-four .parent .images .birthday {
+  top: 250px;
+  left: 500px;
+}
+
+.feat-section-four .parent .images .gender {
+  top: 20px;
+  left: 520px;
+}
+
+.feat-section-four .parent .images .recommend-friend {
+  top: 250px;
+  left: 180px;
+}
+
+/* ===================== Section Five ========================= */
+
+.feat-section-five {
+  width: 100vw;
+  height: 650px;
+  padding: 48px 132px 0px 132px;
+  background: #11002a;
+  position: relative;
+  overflow: hidden;
+}
+
+.feat-section-five .heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.feat-section-five .heading div:nth-child(1) {
+  font-family: "Yellix";
+  width: 30%;
+  font-size: 60px;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.feat-section-five .heading div:nth-child(2) {
+  font-family: sans-serif;
+  width: 45%;
+  font-size: 16px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.feat-section-five img {
+  position: absolute;
+}
+
+.feat-section-five .feat-vector {
+  width: 100%;
+  top: 125px;
+  left: -70px;
+}
+
+.feat-section-five .feat-reaction {
+  width: 40%;
+  top: 245px;
+  left: 180px;
+}
+
+.feat-section-five .feat-progress {
+  width: 40%;
+  top: 245px;
+  left: 700px;
+}
+
+/* ===================== Section six ========================= */
+
+.feat-section-six {
+  width: 100vw;
+  height: 650px;
+  padding: 48px 132px 0px 132px;
+  overflow: hidden;
+}
+
+.feat-section-six .heading {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.feat-section-six .heading .title {
+  width: 60%;
+  font-family: "Yellix";
+  font-size: 60px;
+  line-height: 80px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-six .heading .switches img {
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.feat-section-six .cards-container {
+  width: 100%;
+  height: 50%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.feat-section-six .cards-container .card {
+  width: 40%;
+  padding: 35px;
+  border: 1px solid rgba(234, 230, 240, 1);
+  border-radius: 20px;
+  position: absolute;
+  transition: transform 0.5s linear;
+}
+
+.feat-section-six .cards-container .card .heading {
+  font-family: "Yellix";
+  font-size: 24px;
+  line-height: 48px;
+  color: rgba(17, 0, 42, 1);
+}
+
+.feat-section-six .cards-container .card .content {
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 33px;
+  color: rgba(54, 62, 73, 1);
+}
+
+.feat-section-six .cards-container .card-two {
+  left: 42%;
+}
+
+.feat-section-six .cards-container .card-three {
+  left: 84%;
+}
+
+.feat-section-six .cards-container .card-four {
+  left: 126%;
+}
+
+.feat-section-six .cards-container .card-five {
+  left: 168%;
+}
